@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="276dp"
+        android:layout_height="87dp"
+        android:text="Pratos Tipicos BR"
+        android:textColor="#DFAA0A"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.718"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.225" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="389dp"
+        android:layout_height="76dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email:"
+        android:textColor="#6C6C6C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.444" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="383dp"
+        android:layout_height="81dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Senha:"
+        android:textColor="#575757"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.66" />
+
+    <Button
+        android:id="@+id/entra"
+        android:layout_width="148dp"
+        android:layout_height="48dp"
+        android:bufferType="normal"
+        android:text="Entra"
+        android:textColorLink="#EC9635"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.787" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="197dp"
+        android:layout_height="53dp"
+        android:text="Cadastro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
